@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="script.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,800" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <!-- <div class="" id="minus">
+
+    <h1>–</h1>
+
+    <div class="debug" id="debug">1</div>
+
+    </div>
+
+    <div class="" id="circle">
+      <h4>4</h4>
+    </div>
+
+    -->
+
+
+    <div class="resultmenu">
+    <img class="" id="menu" src="image/menu.svg" alt="Selfhtml">
+    </div>
+
+    <div class="sidenav zindex6" id="mySidenav">
+    <img class="" id="menuclose" src="image/close.svg" alt="Selfhtml">
+
+    <div class="containermenu">
+
+      <div class="numberplay">
+        <div class="hidden" id="menunumbertext">
+          <div>Gespielte Zahl</div><br>
+          <div>18</div>
+          <div>17</div>
+          <div>13</div>
+          <div>15</div>
+          <div>27</div>
+          <div>29</div>
+          <div>32</div>
+        </div>
+      </div>
+
+      <div class="countermenu">
+
+        <div class="hidden" id="menuclicktext">
+          <div>Anzahl Clicks</div><br>
+          <div id="clickcountero">0</div>
+          <div id="clickcounterone">0</div>
+          <div id="clickcountertwo">0</div>
+          <div id="clickcounterthree">0</div>
+          <div id="clickcounterfour">0</div>
+          <div id="clickcounterfive">0</div>
+          <div id="clickcountersix">0</div>
+        </div>
+
+      </div>
+
+        <div class="countermenuresult">
+          <div class="hidden" id="menuresulttext">
+            <div>Bestes Resultat</div><br>
+            <div class="hidden" id="bestclicko">2</div>
+            <div class="hidden" id="bestclickone">3</div>
+            <div class="hidden" id="bestclicktwo">3</div>
+            <div class="hidden" id="bestclickthree">3</div>
+            <div class="hidden" id="bestclickfour">3</div>
+            <div class="hidden" id="bestclickfive">4</div>
+            <div class="hidden" id="bestclicksix">5</div>
+          </div>
+        </div>
+
+      <div class="textmenu">
+        <div class="hidden" id="fontinstruction">
+          Spielanleitung<br><br>
+          Das Knobelspiel für Zahlen-Rätsel-Liebhaber*innen. Erreiche ein Resultat durch addieren und subtrahieren von vier vorgegebenen Zahlen und versuche dabei möglichst wenig Clicks zu machen. Und da man am besten immer mit allem möglichen rechnen sollte gibt es im Laufe des Spiels ausserdem verschiedenste Joker, die deine grauen Zellen immer wieder auf’s neue herausfordern. Viel Vergnügen!
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+
+
+    <div class="container">
+
+    <div class="result">
+      <h2 id="result-container">18</h2>
+    </div>
+
+    <div class="ergebnis">
+    <h5>Ergebnis</h5>
+    <div id="counter">0</div>
+    </div>
+
+    <div class="hidden zindex4 finish" id="welldone">
+      <h3 class="typowelldone">well done</h3>
+      <div class="typotryagain" id="again">Try again</div>
+    </div>
+
+    <div class="hidden zindex4 finish" id="levelone">
+      <h3 class="typowelldone">you finished level one</h3>
+    </div>
+
+    <div class="moves">
+    <h5>Klicks</h5>
+    <div id="zaehler">0</div>
+    </div>
+
+    <div class="number_1 back" id="sieben">
+      <h1>7</h1>
+    </div>
+
+    <div class="number_2 back" id="neun">
+      <h1>9</h1>
+    </div>
+
+    <div class="number_left back">
+    </div>
+
+    <div class="number_plus back" id="plus">
+      <h1>+</h1>
+    </div>
+
+    <div class="number_plus z-index">
+      <div>
+      <div class="" id="circle"></div>
+      </div>
+    </div>
+
+
+    <div class="number_minus back" id="minus">
+      <h1>-</h1>
+    </div>
+
+    <div class="number_minus z-index">
+      <div>
+      <div class="hiddencircleminus" id="circleminus"></div>
+      </div>
+    </div>
+
+    <div class="number_right back">
+    </div>
+
+    <div class="number_3 back" id="zwei">
+      <h1>2</h1>
+    </div>
+
+    <div class="number_4 back" id="eins">
+      <h1>1</h1>
+    </div>
+
+    <div class="joker1 hidden" id="multivier">
+      <h4><div class="square">&#x00D7;4</div></h4>
+    </div>
+
+    <div class="joker2 hidden" id="minusacht">
+      <h4><div class="square">-4</div></h4>
+    </div>
+
+    <div class="joker3 hiddenmultizwei" id="multizwei">
+      <h4><div class="square">&#x00D7;3</div></h4>
+    </div>
+
+    </div>
+
+    <!-- page content -->
+  </body>
+
+  <script src="Calculator.js"></script>
+
+</html>
